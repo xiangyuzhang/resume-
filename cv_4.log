@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 FEB 2016 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2016 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -73,7 +73,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 
 LaTeX Warning: Unused global option(s):
-    [8pt].
+    [15pt].
 
 (./cv_4.aux)
 \openout1 = `cv_4.aux'.
@@ -134,11 +134,6 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 33--33
 [] 
  []
 
-
-Overfull \hbox (47.5981pt too wide) in paragraph at lines 56--61
-[][] 
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -151,10 +146,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 .aux) ) 
 Here is how much of TeX's memory you used:
  876 strings out of 493089
- 11956 string characters out of 6134842
- 76368 words of memory out of 5000000
+ 11951 string characters out of 6134842
+ 76371 words of memory out of 5000000
  4408 multiletter control sequences out of 15000+600000
- 4900 words of font info for 18 fonts, out of 8000000 for 9000
+ 4899 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,6n,21p,278b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
@@ -163,7 +158,7 @@ Here is how much of TeX's memory you used:
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 >
-Output written on cv_4.pdf (1 page, 78001 bytes).
+Output written on cv_4.pdf (1 page, 79253 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
