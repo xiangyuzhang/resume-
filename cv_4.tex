@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Xiangyu Zhang} % Your name
+\address{2B E Plumtree Rd \\ Sunderland , MA. 01375} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{321-305-9833 \\ xiangyuzhang@umass.edu} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Massachusetts Amherst} \hfill {\em Sep 2014 - Present} 
+\\ M.S.in Electronic \& Computer Engineering \hfill { Overall GPA: 3.423}
+
+{\bf Florida Institute of Technology} \hfill {\em Aug. 2012 - May. 2014} 
+\\ B.S.in Electronic \& Computer Engineering \hfill { Overall GPA: 3.5}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+Languages &  Verilog, C++, Python. \\
+Tools & Quartus II, Linux, MINISAT, HSPICE, Cadence Virtuoso, Visual Studio, Git.\\
+Courses & Computer Architecture, VLSI, Testing \& Diagnosis VLSI Systm, Verification, Algorithm, Computer Network.
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research and Teach Experience}\itemsep 2pt
+
+\begin{rSubsection}{University of Massachusetts Amherst}{Research Assistant}{Area: Formal Equivalence Checking, SAT, Circuit Security}{Jun 2015 - Present}\itemsep -1pt
+\item
+	\begin{itemize}\itemsep -3pt
+    
+    	\item Oracle-Guided Incremental SAT Solver Development   
+\begin{itemize}
+		\item Participated in Oracle-Guided Incremental SAT Solver using \textbf{Python} and \textbf{C/C++}.\par
+		\item Developed Circuit Equivalence Checking tool based on \textbf{MINISAT} using \textbf{Python}.\par 
+\end{itemize}
+
+	\item Camouflage Tools Development
+\begin{itemize}
+		\item Implemented Logic-level circuit obfuscation based on Anti-reverse Engineering using Transformable Interconnects in \textbf{Python}.\par
+		\item Implemented Logic Anti-propagation in \textbf{Python}.\par		
+\end{itemize} 
+
+	\end{itemize}
+
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Massachusetts Amherst}{Teaching Assistant}{Course: ECE 353 - Computer Systems Lab I}{Sep 2015 - Jan 2016}\itemsep -4pt
+\item 
+\begin{itemize}
+\item Assisted in teaching design and analysis of digital systems using both hardware (Altera Complex Programmable Logic Device (CPLD) and \textbf{Verilog}) and software (Atmel \textbf{AVR}  ATmega32 microcontroller, assembly language and \textbf{C}).
+\end{itemize}
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Projects} 
+
+\begin{itemize}\itemsep -2pt
+
+\item Parallel Pattern Single Fault Simulation (PPSFP) based Fault Simulator
+    \begin{itemize}\itemsep -3pt
+    \item Developed a parser and lexical analyzer based on \textbf{YACC \& LEX} to read ISCAS benchmark circuits and convert to customized double undirected graph using \textbf{C}.
+    \item Implemented circuit levelization algorithm using \textbf{C/C++}.
+    \item Implemented Parallel Pattern Single Fault Simulation (\textbf{PPSFP}) algorithm using \textbf{C/C++}.
+    \end{itemize}
+
+\item MIPS Simulating Model
+    \begin{itemize}\itemsep -3pt
+    \item Simulated \textbf{MIPS} architecture in \textbf{C} and evaluated utilization of each gate.
+    \end{itemize}
+
+\item Universal Synchronous and Asynchronous Receiver Transmitter (\textbf{USART}) implementation on CPLD
+    \begin{itemize}\itemsep -3pt
+    \item Designed a USART for MIDI device that will read a MIDI signal to interpret its content and display the note number in binary on seven LEDs using \textbf{CPLD} and \textbf{Verilog}.
+    \end{itemize}
+
+\item  General MIDI Explorer (GME) with Record/Playback implementation on AVR
+    \begin{itemize}\itemsep -3pt
+    \item Developed record and playback function using USART and store function using EEPROM on ATmega32 \textbf{AVR} in \textbf{C}.
+    \item Implemented Run-length encoding (RLE) to perform compression and uncompression in EEPROM.
+    \end{itemize}
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}\itemsep 2pt
+\begin{itemize}
+\item Oracle-Guided Incremental SAT Solving to Reverse Engineer Camouflaged Logic Circuits, Design Automation and Test in Europe, \textbf{DATE 2016}.
+\end{itemize}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\end{document}
